@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/station_short_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/et_stationcode_hint"
+        android:ems="10"
+        android:id="@+id/et_station_short_code"
+        />
+
+
+    <Button
+        android:text="@string/get_short_code_from_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_station_short_code"
+        android:onClick="handleBtnStationShortCodeClick"/>
+
+    <Button
+        android:text="@string/btn_station_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_station_search"
+        android:onClick="handleBtnStationSearchClick" />
+</LinearLayout>

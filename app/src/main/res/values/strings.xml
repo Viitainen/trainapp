@@ -1,0 +1,578 @@
+<resources>
+    <string name="app_name">Trains!!!</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="et_train_id">Train ID</string>
+    <string name="tv_on_time_instructions">Enter the train ID and Is On Time to check is your train on time.</string>
+    <string name="btn_on_time_search">Is On Time?</string>
+    <string name="btn_station_search">Search</string>
+    <string name="et_stationcode_hint">Station</string>
+    <string name="title_activity_station_arrivals_departures">Arrivals and Departures</string>
+    <string name="no_results">No results found.</string>
+    <string name="search">Search</string>
+    <string name="search_instructions">Enter the departure and arrival station short codes, and the date. Then press search.</string>
+    <string name="arrival_station_shortcode">Arrival Station</string>
+    <string name="departure_station_shortcode">Departure Station</string>
+    <string name="check_fields">Error searching.</string>
+    <string name="action_station_short_codes">Station short codes</string>
+    <string name="filter">Filter...</string>
+    <string name="get_short_code_from_list">Get short code from list</string>
+    <string name="check_if_the_train_was_on_time_in_a_specific_date">OR check if the train was on time in a specific date.</string>
+    <string name="was_on_time">Was On Time?</string>
+    <string name="could_not_fetch_with_id">Could not fetch data with this id.</string>
+    <string name="train_on_time">Train on time.</string>
+    <string name="train_running_late_by">"Train running late by "</string>
+    <string name="minutes_end_of_sentence">" minutes."</string>
+    <string name="train_ahead_by">"Train ahead by "</string>
+    <string name="train_not_running">Train not currently running.</string>
+    <string name="tv_compositions_instructions">Enter train id and the date to search which wagons and services it has.</string>
+    <string name="arrivals_and_departures">Arrivals and Departures</string>
+    <string name="wagons_and_services_of">"Wagons and Services of "</string>
+    <string name="could_not_get_on_time">Sorry, don\'t know :(</string>
+    <string name="station_short_code">Enter station short code and press search to get arrivals and departures from this station.</string>
+    <string name="insert_id">Please insert ID</string>
+    <string name="insert_station_codes">Please insert departure and arrival station short codes.</string>
+    <string name="insert_station_code">Please insert station short code.</string>
+    <string-array name="station_short_codes">
+        <item>Ahonpää: AHO</item>
+        <item>Ahvenus: AHV</item>
+        <item>Ainola: AIN</item>
+        <item>Airaksela: ARL</item>
+        <item>Aittaluoto: ATL</item>
+        <item>Ajos: AJO</item>
+        <item>Alapitkä: APT</item>
+        <item>Alavus: ALV</item>
+        <item>Alholma: ALH</item>
+        <item>Arola: ARO</item>
+        <item>Asola: ASO</item>
+        <item>Aviapolis: AVP</item>
+        <item>Dragsvik: DRA</item>
+        <item>Dynamiittivaihde: DMV</item>
+        <item>Elijärvi: ELI</item>
+        <item>Eläinpuisto-Zoo: EPZ</item>
+        <item>Eno: ENO</item>
+        <item>Ervelä: ERV</item>
+        <item>Eskola: ELA</item>
+        <item>Espoo: EPO</item>
+        <item>Haapajärvi: HPJ</item>
+        <item>Haapakoski: HPS</item>
+        <item>Haapamäen kyllästämö: HMK</item>
+        <item>Haapamäki: HPK</item>
+        <item>Haaparanta: HPA</item>
+        <item>Haarajoki: HAA</item>
+        <item>Hakosilta: HLT</item>
+        <item>Haksi: HSI</item>
+        <item>Hamina: HMA</item>
+        <item>Hammaslahti: HSL</item>
+        <item>Hanala: HNA</item>
+        <item>Hangonsaari: HGS</item>
+        <item>Hanhikoski: HNH</item>
+        <item>Hankasalmi: HKS</item>
+        <item>Hanko asema: HNK</item>
+        <item>Hanko tavara: HNKT</item>
+        <item>Hanko-Pohjoinen: HKP</item>
+        <item>Harjavalta: HVA</item>
+        <item>Harju: HJ</item>
+        <item>Harviala: HRV</item>
+        <item>Haukipudas: HD</item>
+        <item>Haukivuori: HAU</item>
+        <item>Hausjärvi tavara: HAS</item>
+        <item>Haviseva: HVS</item>
+        <item>Havukoski: HVK</item>
+        <item>Heikkilä: HEK</item>
+        <item>Heinola: HA</item>
+        <item>Heinoo: HNO</item>
+        <item>Heinävaara: HÄV</item>
+        <item>Heinävesi: HNV</item>
+        <item>Helsinki asema: HKI</item>
+        <item>Helsinki Kivihaka: KHK</item>
+        <item>Herrala: HR</item>
+        <item>Hiekkaharju: HKH</item>
+        <item>Hiirola: HIR</item>
+        <item>Hikiä: HK</item>
+        <item>Hillosensalmi: HLS</item>
+        <item>Hinthaara: HH</item>
+        <item>Hirvineva: HVN</item>
+        <item>Humppila: HP</item>
+        <item>Huopalahti: HPL</item>
+        <item>Huutokoski: HKO</item>
+        <item>Hyrynsalmi: HYS</item>
+        <item>Hyvinkää: HY</item>
+        <item>Hämeenlinna: HL</item>
+        <item>Härmä: HM</item>
+        <item>Höljäkkä: HÖL</item>
+        <item>Ii: II</item>
+        <item>Iisalmen teollisuusraiteet: ITR</item>
+        <item>Iisalmi: ILM</item>
+        <item>Iittala: ITA</item>
+        <item>Ilmala asema: ILA</item>
+        <item>Ilmala ratapiha: ILR</item>
+        <item>Ilomantsi: ILO</item>
+        <item>Imatra asema: IMR</item>
+        <item>Imatra tavara: IMT</item>
+        <item>Imatrankoski: IMK</item>
+        <item>Imatrankoski-raja: IMKR</item>
+        <item>Inha: IN</item>
+        <item>Inkeroinen: IKR</item>
+        <item>Inkoo: IKO</item>
+        <item>Isokangas: ISG</item>
+        <item>Isokyrö: IKY</item>
+        <item>Jalasjärvi: JAL</item>
+        <item>Jepua: JPA</item>
+        <item>Joensuu asema: JNS</item>
+        <item>Joensuu Peltola: PLT</item>
+        <item>Joensuu Sulkulahti: SUL</item>
+        <item>Jokela: JK</item>
+        <item>Joroinen: JOR</item>
+        <item>Jorvas: JRS</item>
+        <item>Joutseno: JTS</item>
+        <item>Juankoski: JKI</item>
+        <item>Jutila: JUT</item>
+        <item>Juupajoki: JJ</item>
+        <item>Juurikorpi: JRI</item>
+        <item>Jyväskylä: JY</item>
+        <item>Jämsä: JÄS</item>
+        <item>Jämsänkoski: JSK</item>
+        <item>Järvelä: JR</item>
+        <item>Järvenpää asema: JP</item>
+        <item>Kaipiainen: KPA</item>
+        <item>Kaipola: KLA</item>
+        <item>Kairokoski: KKO</item>
+        <item>Kaitjärvi: KJR</item>
+        <item>Kajaani: KAJ</item>
+        <item>Kaleton: KTN</item>
+        <item>Kalkku: KAU</item>
+        <item>Kalliovarasto: KAO</item>
+        <item>Kallislahti: KLL</item>
+        <item>Kalvitsa: KSA</item>
+        <item>Kangas: KGS</item>
+        <item>Kannelmäki: KAN</item>
+        <item>Kannonkoski: KSI</item>
+        <item>Kannus: KNS</item>
+        <item>Karhejärvi: KRR</item>
+        <item>Karhukangas: KHG</item>
+        <item>Karjaa: KR</item>
+        <item>Karkku: KRU</item>
+        <item>Karviainen: KAR</item>
+        <item>Kaskinen: KSK</item>
+        <item>Kattilaharju: KTH</item>
+        <item>Kauhajoki: KJI</item>
+        <item>Kauhava: KHA</item>
+        <item>Kauklahti asema: KLH</item>
+        <item>Kaulinranta: KLR</item>
+        <item>Kauniainen: KNI</item>
+        <item>Kauppilanmäki: KPL</item>
+        <item>Kausala: KA</item>
+        <item>Keitelepohja: KTP</item>
+        <item>Kekomäki: KEK</item>
+        <item>Kemi: KEM</item>
+        <item>Kemijärvi: KJÄ</item>
+        <item>Kempele: KML</item>
+        <item>Kera: KEA</item>
+        <item>Kerava asema: KE</item>
+        <item>Kerimäki: KIÄ</item>
+        <item>Kesälahti: KTI</item>
+        <item>Keuruu: KEU</item>
+        <item>Kihniö: KIÖ</item>
+        <item>Kiiala: KIA</item>
+        <item>Kilo: KIL</item>
+        <item>Kilpua: KUA</item>
+        <item>Kinahmi: KNH</item>
+        <item>Kinni: KII</item>
+        <item>Kirjola: KIJ</item>
+        <item>Kirkkonummi: KKN</item>
+        <item>Kirkniemi: KRN</item>
+        <item>Kitee: KIT</item>
+        <item>Kiukainen: KN</item>
+        <item>Kiuruvesi: KRV</item>
+        <item>Kivesjärvi: KVJ</item>
+        <item>Kivistö: KTÖ</item>
+        <item>Kohtavaara: KOH</item>
+        <item>Koivu: KVU</item>
+        <item>Koivuhovi: KVH</item>
+        <item>Koivukylä: KVY</item>
+        <item>Kokemäki: KKI</item>
+        <item>Kokkola: KOK</item>
+        <item>Kolari: KLI</item>
+        <item>Kolho: KLO</item>
+        <item>Kolppi: KPI</item>
+        <item>Kommila: KMM</item>
+        <item>Komu: KOM</item>
+        <item>Kontiolahti: KHI</item>
+        <item>Kontiomäki: KON</item>
+        <item>Koria: KRA</item>
+        <item>Korkeakoski: KAS</item>
+        <item>Korso: KRS</item>
+        <item>Korvensuo: KSU</item>
+        <item>Koskenkorva: KOS</item>
+        <item>Kotka asema: KTA</item>
+        <item>Kotka Hovinsaari: HOS</item>
+        <item>Kotka Mussalo: MSS</item>
+        <item>Kotka tavara: KTT</item>
+        <item>Kotkan satama: KTS</item>
+        <item>Kotolahti: KOO</item>
+        <item>Kouvola asema: KV</item>
+        <item>Kouvola lajittelu: KVLA</item>
+        <item>Kouvola Oikoraide: OIK</item>
+        <item>Kouvola tavara: KVT</item>
+        <item>Kovjoki: KOI</item>
+        <item>Kruunupyy: KPY</item>
+        <item>Kuivasjärvi: KIS</item>
+        <item>Kullasvaara: KUV</item>
+        <item>Kuopio asema: KUO</item>
+        <item>Kuopio tavara: KUOT</item>
+        <item>Kupittaa: KUT</item>
+        <item>Kurkimäki: KRM</item>
+        <item>Kuurila: KU</item>
+        <item>Kuusankoski: KUK</item>
+        <item>Kylänlahti: KYN</item>
+        <item>Kymi: KY</item>
+        <item>Kyminlinna: KLN</item>
+        <item>Kyrö: KÖ</item>
+        <item>Kytömaa: KYT</item>
+        <item>Kälviä: KLV</item>
+        <item>Käpylä: KÄP</item>
+        <item>Köykkäri: KÖK</item>
+        <item>Laajavuori: LAV</item>
+        <item>Lahdenperä: LPR</item>
+        <item>Lahnaslampi: LHN</item>
+        <item>Lahti: LH</item>
+        <item>Laihia: LAI</item>
+        <item>Lakiala: LAK</item>
+        <item>Lamminkoski: LMK</item>
+        <item>Lamminniemi: LAM</item>
+        <item>Lapinjärvi: LPJ</item>
+        <item>Lapinlahti: LNA</item>
+        <item>Lapinneva: LPN</item>
+        <item>Lappeenranta: LR</item>
+        <item>Lappila: LAA</item>
+        <item>Lappohja: LPO</item>
+        <item>Lapua: LPA</item>
+        <item>Larvakytö: LYÖ</item>
+        <item>Laukaa: LAU</item>
+        <item>Laurila: LLA</item>
+        <item>Lauritsala: LRS</item>
+        <item>Lautiosaari: LI</item>
+        <item>Leinelä: LNÄ</item>
+        <item>Lelkola: LKL</item>
+        <item>Lempäälä: LPÄ</item>
+        <item>Lentoasema: LEN</item>
+        <item>Leppäkoski: LK</item>
+        <item>Leppävaara: LPV</item>
+        <item>Leteensuo: LTS</item>
+        <item>Lieksa: LIS</item>
+        <item>Lieksan teollisuuskylä: LTK</item>
+        <item>Lielahti: LLH</item>
+        <item>Lievestuore: LVT</item>
+        <item>Liminka: LKA</item>
+        <item>Lohiluoma: LUO</item>
+        <item>Lohja: LO</item>
+        <item>Loimaa: LM</item>
+        <item>Louhela: LOH</item>
+        <item>Loukolampi: LOL</item>
+        <item>Loviisan satama: LVS</item>
+        <item>Luikonlahti: LUI</item>
+        <item>Luoma: LMA</item>
+        <item>Lusto: LUS</item>
+        <item>Luumäki: LÄ</item>
+        <item>Lähdemäki: LÄH</item>
+        <item>Länkipohja: LÄP</item>
+        <item>Maanselkä: MLK</item>
+        <item>Maaria: MRI</item>
+        <item>Madesjärvi: MD</item>
+        <item>Majajärvi: MJJ</item>
+        <item>Malmi: ML</item>
+        <item>Malminkartano: MLO</item>
+        <item>Mankala: MKA</item>
+        <item>Mankki: MNK</item>
+        <item>Markkala: MRK</item>
+        <item>Martinlaakso: MRL</item>
+        <item>Masala: MAS</item>
+        <item>Matkaneva: MTV</item>
+        <item>Mattila: MAT</item>
+        <item>Meltola: MEL</item>
+        <item>Metsäkansa: MSÄ</item>
+        <item>Mikkeli: MI</item>
+        <item>Misi: MIS</item>
+        <item>Mommila: MLA</item>
+        <item>Moskova_(Leningradski): MVA</item>
+        <item>Muhos: MH</item>
+        <item>Mukkula: MUK</item>
+        <item>Murtomäki: MUR</item>
+        <item>Mustio: MSO</item>
+        <item>Mustolan satama: MST</item>
+        <item>Muukko: MKO</item>
+        <item>Muurame: MUU</item>
+        <item>Muurola: MUL</item>
+        <item>Myllykangas: MYS</item>
+        <item>Myllykoski: MKI</item>
+        <item>Myllymäki: MY</item>
+        <item>Myllyoja: MYL</item>
+        <item>Mynttilä: MYT</item>
+        <item>Mynämäki: MYN</item>
+        <item>Myyrmäki: MYR</item>
+        <item>Mäkkylä: MÄK</item>
+        <item>Mäntsälä: MLÄ</item>
+        <item>Mänttä: MÄN</item>
+        <item>Mäntyharju: MR</item>
+        <item>Mäntyluoto: MN</item>
+        <item>Naantali: NNL</item>
+        <item>Naarajärvi: NRI</item>
+        <item>Nakkila: NAL</item>
+        <item>Nastola: NSL</item>
+        <item>Niemenpää: NMP</item>
+        <item>Niinimaa: NII</item>
+        <item>Niinimäki: NMÄ</item>
+        <item>Niinisalo: NNS</item>
+        <item>Niirala: NRL</item>
+        <item>Niirala-raja: NRLR</item>
+        <item>Niittylahti: NTH</item>
+        <item>Nikkilä: NLÄ</item>
+        <item>Nivala: NVL</item>
+        <item>Nokia: NOA</item>
+        <item>Nummela: NM</item>
+        <item>Nuppulinna: NUP</item>
+        <item>Nurmes: NRM</item>
+        <item>Närpiö: NÄR</item>
+        <item>Ohenmäki: OHM</item>
+        <item>Oitti: OI</item>
+        <item>Olli: OLLI</item>
+        <item>Onttola: ONT</item>
+        <item>Orimattila: OM</item>
+        <item>Orivesi: OV</item>
+        <item>Orivesi keskusta: OVK</item>
+        <item>Otanmäki: OTM</item>
+        <item>Otava: OT</item>
+        <item>Oulainen: OU</item>
+        <item>Oulu asema: OL</item>
+        <item>Oulu Nokela: NOK</item>
+        <item>Oulu Oritkari: ORI</item>
+        <item>Oulu tavara: OLT</item>
+        <item>Oulu Tuira: TUA</item>
+        <item>Oulunkylä: OLK</item>
+        <item>Paimenportti: PTI</item>
+        <item>Paimio: PO</item>
+        <item>Palopuro: PLP</item>
+        <item>Paltamo: PTO</item>
+        <item>Pankakoski: PAS</item>
+        <item>Parikkala: PAR</item>
+        <item>Parkano: PKO</item>
+        <item>Parola: PRL</item>
+        <item>Pasila asema: PSL</item>
+        <item>Pasila autojuna-asema: PAU</item>
+        <item>Pasila tavara: PSLT</item>
+        <item>Patokangas: PTG</item>
+        <item>Pelkola: PA</item>
+        <item>Pello: PEL</item>
+        <item>Peltosalmi: PMI</item>
+        <item>Peräseinäjoki: PSJ</item>
+        <item>Pesiökylä: PSK</item>
+        <item>Petroskoi / Petrozavodsk: PTK</item>
+        <item>Petäjävesi: PVI</item>
+        <item>Pieksämäki asema: PM</item>
+        <item>Pieksämäki lajittelu: PMLA</item>
+        <item>Pieksämäki tavara: PMT</item>
+        <item>Pieksämäki Temu: TMU</item>
+        <item>Pietari_(Finljandski): PTR</item>
+        <item>Pietarsaari: PTS</item>
+        <item>Pihlajavesi: PH</item>
+        <item>Pihtipudas: PP</item>
+        <item>Piikkiö: PIK</item>
+        <item>Pikkarala: PKL</item>
+        <item>Pitäjänmäki: PJM</item>
+        <item>Pohjankuru: PKU</item>
+        <item>Pohjois-Haaga: POH</item>
+        <item>Pohjois-Louko: PLU</item>
+        <item>Poikkeus: PKK</item>
+        <item>Poiksilta: POI</item>
+        <item>Pori: PRI</item>
+        <item>Porokylä: POR</item>
+        <item>Porvoo: PRV</item>
+        <item>Puhos: PUS</item>
+        <item>Puistola: PLA</item>
+        <item>Pukinmäki: PMK</item>
+        <item>Pulsa: PL</item>
+        <item>Punkaharju: PUN</item>
+        <item>Purola: PUR</item>
+        <item>Pyhäkumpu: PYK</item>
+        <item>Pyhäkumpu erkanemisvaihde: PYE</item>
+        <item>Pyhäsalmi: PHÄ</item>
+        <item>Pännäinen: PNÄ</item>
+        <item>Pääskylahti: PKY</item>
+        <item>R530: R530</item>
+        <item>Raahe: RHE</item>
+        <item>Raide934: R934</item>
+        <item>Raippo: RPO</item>
+        <item>Raisio: RAI</item>
+        <item>Rajamäki: RM</item>
+        <item>Rajaperkiö: RJP</item>
+        <item>Rantasalmi: RMI</item>
+        <item>Rasinsuo: RAS</item>
+        <item>Ratikylä: RLÄ</item>
+        <item>Rauha: RAH</item>
+        <item>Rauhalahti: RHL</item>
+        <item>Rauma: RMA</item>
+        <item>Raunio: RIO</item>
+        <item>Rautaruukki: RAT</item>
+        <item>Rautjärvi: RJÄ</item>
+        <item>Rautpohja: RPH</item>
+        <item>Rekola: RKL</item>
+        <item>Retretti: REE</item>
+        <item>Riihimäki Arolampi: ARP</item>
+        <item>Riihimäki asema: RI</item>
+        <item>Riihimäki lajittelu: RILA</item>
+        <item>Riihimäki tavara: RIT</item>
+        <item>Riijärvi: RJR</item>
+        <item>Riippa: RPA</item>
+        <item>Ristiina: RST</item>
+        <item>Ristijärvi: RJV</item>
+        <item>Rovaniemi: ROI</item>
+        <item>Ruha: RHA</item>
+        <item>Runni: RNN</item>
+        <item>Ruokosuo: RSU</item>
+        <item>Ruukki: RKI</item>
+        <item>Ruusumäki: RSM</item>
+        <item>Ryttylä: RY</item>
+        <item>Röyttä: RÖY</item>
+        <item>Saakoski: SAA</item>
+        <item>Saari: SR</item>
+        <item>Saarijärvi: SRJ</item>
+        <item>Salminen: SLN</item>
+        <item>Salo: SLO</item>
+        <item>Sammalisto: SAM</item>
+        <item>Santala: STA</item>
+        <item>Saunakallio: SAU</item>
+        <item>Saunamäki: SMÄ</item>
+        <item>Savio: SAV</item>
+        <item>Savonlinna asema: SL</item>
+        <item>Seinäjoki asema: SK</item>
+        <item>Seinäjoki tavara: SKT</item>
+        <item>Selänpää: SPÄ</item>
+        <item>Sieppijärvi: SPJ</item>
+        <item>Sievi: SVI</item>
+        <item>Siikamäki: SKÄ</item>
+        <item>Siilinjärvi Asema: SIJ</item>
+        <item>Simo: SIM</item>
+        <item>Simpele: SPL</item>
+        <item>Sipilä: SIP</item>
+        <item>Sisättö: STÖ</item>
+        <item>Siuntio: STI</item>
+        <item>Siuro: SIU</item>
+        <item>Skogby: SGY</item>
+        <item>Sköldvik: SLD</item>
+        <item>Soinlahti: SOA</item>
+        <item>Sorsasalo: SOR</item>
+        <item>Sukeva: SKV</item>
+        <item>Suolahti: SUO</item>
+        <item>Suonenjoki: SNJ</item>
+        <item>Suoniemi: SNM</item>
+        <item>Syrjä: SYR</item>
+        <item>Syrjämäki: SKI</item>
+        <item>Sysmäjärvi: SMJ</item>
+        <item>Säkäniemi: SÄ</item>
+        <item>Sänkimäki: SKM</item>
+        <item>Sääksjärvi: SJ</item>
+        <item>Taavetti: TA</item>
+        <item>Tahkoluoto: TKO</item>
+        <item>Taipale: TE</item>
+        <item>Talviainen: TV</item>
+        <item>Talvivaara: TLV</item>
+        <item>Tammisaari: TMS</item>
+        <item>Tampere asema: TPE</item>
+        <item>Tampere Järvensivu: JVS</item>
+        <item>Tampere tavara: TPET</item>
+        <item>Tampere Viinikka: VKA</item>
+        <item>Tapanila: TNA</item>
+        <item>Tapavainola: TAP</item>
+        <item>Tavastila: TSL</item>
+        <item>Tervajoki: TK</item>
+        <item>Tervola: TRV</item>
+        <item>Teuva: TUV</item>
+        <item>Tikkala: TKK</item>
+        <item>Tikkaperä: TKP</item>
+        <item>Tikkurila asema: TKL</item>
+        <item>Tohmajärvi: TOH</item>
+        <item>Toijala: TL</item>
+        <item>Toivala: TOI</item>
+        <item>Tolsa: TOL</item>
+        <item>Tommola: TOM</item>
+        <item>Torkkeli: TRK</item>
+        <item>Tornio asema: TOR</item>
+        <item>Tornio-Itäinen: TRI</item>
+        <item>Tornio-raja: TRR</item>
+        <item>Tuomarila: TRL</item>
+        <item>Tuomioja: TJA</item>
+        <item>Turenki: TU</item>
+        <item>Turku asema: TKU</item>
+        <item>Turku satama: TUS</item>
+        <item>Turku tavara: TKUT</item>
+        <item>Tuupovaara: TPV</item>
+        <item>Tuuri: TUU</item>
+        <item>Törmä: TÖR</item>
+        <item>Törölä: TRÄ</item>
+        <item>Uimaharju: UIM</item>
+        <item>Urjala: UR</item>
+        <item>Utajärvi: UTJ</item>
+        <item>Utti: UTI</item>
+        <item>Uusikaupunki: UKP</item>
+        <item>Uusikylä: UKÄ</item>
+        <item>Vaajakoski: VKO</item>
+        <item>Vaala: VAA</item>
+        <item>Vaarala: VRA</item>
+        <item>Vaasa: VS</item>
+        <item>Vahojärvi: VJR</item>
+        <item>Vainikkala asema: VNA</item>
+        <item>Vainikkala tavara: VNAT</item>
+        <item>Vainikkala-raja: VNAR</item>
+        <item>Valimo: VMO</item>
+        <item>Valkeakoski: VI</item>
+        <item>Valkeasuo: VSO</item>
+        <item>Valtimo: VLM</item>
+        <item>Vammala: VMA</item>
+        <item>Vanattara: VTR</item>
+        <item>Vantaankoski: VKS</item>
+        <item>Varkaus: VAR</item>
+        <item>Vartius: VUS</item>
+        <item>Vartius-raja: VUR</item>
+        <item>Vasikkahaka: VKH</item>
+        <item>Vaskiluoto: VSK</item>
+        <item>Vehkala: VEH</item>
+        <item>Venetmäki: VKI</item>
+        <item>Vesanka: VN</item>
+        <item>Viekki: VK</item>
+        <item>Vierumäki: VRM</item>
+        <item>Vihanti: VTI</item>
+        <item>Vihtari: VIH</item>
+        <item>Viiala: VIA</item>
+        <item>Viinijärvi: VNJ</item>
+        <item>Viipuri: VYB</item>
+        <item>Villähde: VLH</item>
+        <item>Vilppula: VLP</item>
+        <item>Vinnilä: VIN</item>
+        <item>Virkamies: VMS</item>
+        <item>Voltti: VT</item>
+        <item>Vuohijärvi: VHJ</item>
+        <item>Vuojoki: VJO</item>
+        <item>Vuokatti: VKT</item>
+        <item>Vuonislahti: VSL</item>
+        <item>Vuonos: VNS</item>
+        <item>Vuorten-Vuori: VV</item>
+        <item>Vuosaari: VSA</item>
+        <item>Värtsilä: VRS</item>
+        <item>Ykspihlaja tavara: YKST</item>
+        <item>Ykspihlaja väliratapiha: YKSV</item>
+        <item>Ylistaro: YST</item>
+        <item>Ylitornio: YTR</item>
+        <item>Ylivalli: YLV</item>
+        <item>Ylivieska: YV</item>
+        <item>Yläkoski: YLK</item>
+        <item>Ylämylly: YLY</item>
+        <item>Ylöjärvi: YLÖ</item>
+        <item>Ypykkävaara: YPY</item>
+        <item>Äetsä: ÄS</item>
+        <item>Ähtäri: ÄHT</item>
+        <item>Ämmänsaari: ÄM</item>
+        <item>Äänekoski: ÄKI</item>
+    </string-array>
+
+</resources>
